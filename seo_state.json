@@ -1,0 +1,66 @@
+{
+  "users": {
+    "Dived": {
+      "role": "ADMIN",
+      "permissions": [
+        "on_page",
+        "off_page",
+        "technical",
+        "research",
+        "intelligence",
+        "testing",
+        "strategy",
+        "projects",
+        "team_management",
+        "reports"
+      ]
+    },
+    "Chirag": {
+      "role": "ADMIN",
+      "permissions": [
+        "on_page",
+        "off_page",
+        "technical",
+        "research",
+        "intelligence",
+        "testing",
+        "strategy",
+        "projects",
+        "team_management",
+        "reports"
+      ]
+    },
+    "Ravi": {
+      "role": "ADMIN",
+      "permissions": [
+        "on_page",
+        "off_page",
+        "technical",
+        "research",
+        "intelligence",
+        "testing",
+        "strategy",
+        "projects",
+        "team_management",
+        "reports"
+      ]
+    },
+    "Prashant": {
+      "role": "TEAM MEMBER",
+      "permissions": [
+        "off_page"
+      ]
+    },
+    "Kanishak": {
+      "role": "TEAM MEMBER",
+      "permissions": [
+        "off_page"
+      ]
+    }
+  },
+  "projects": {},
+  "tasks": {},
+  "activity_log": [],
+  "shared_knowledge": [],
+  "strategy": "Initial shared SEO strategy."
+}

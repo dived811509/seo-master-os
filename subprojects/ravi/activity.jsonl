@@ -1,0 +1,3 @@
+{"user": "Ravi", "sub_project": "Ravi", "project": null, "task_id": null, "agent": null, "action": "START (Login)", "result": "SUCCESS", "timestamp": "2026-08-24T13:16:07.449378"}
+{"user": "Ravi", "sub_project": "Ravi", "project": null, "task_id": null, "agent": null, "action": "Grant Permission technical to Prashant", "result": "SUCCESS", "timestamp": "2026-08-24T13:16:07.920983"}
+{"user": "Ravi", "sub_project": "Ravi", "project": null, "task_id": null, "agent": null, "action": "STOP (Logout)", "result": "SUCCESS", "timestamp": "2026-08-24T13:16:08.032245"}
