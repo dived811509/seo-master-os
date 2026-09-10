@@ -37,17 +37,12 @@ def get_local_session_path():
     cwd = os.path.abspath(os.getcwd())
     root = get_workspace_root()
     
-    # Traverse from CWD up to root looking for .session.json
-    curr = cwd
-    while True:
-        sess_file = os.path.join(curr, ".session.json")
-        if os.path.exists(sess_file):
-            return sess_file
-        if curr == root:
-            break
-        curr = os.path.dirname(curr)
+    subprojects_dir = os.path.join(root, "subprojects")
+    if cwd.startswith(subprojects_dir) and cwd != subprojects_dir:
+        rel = os.path.relpath(cwd, subprojects_dir)
+        sub_name = rel.split(os.sep)[0]
+        return os.path.join(subprojects_dir, sub_name, ".session.json")
         
-    # If not found, default to writing in CWD
     return os.path.join(cwd, ".session.json")
 
 def load_local_session():
@@ -161,11 +156,29 @@ def cmd_start(args):
             if p in perm_map:
                 print(f"- {perm_map[p]}")
                 
-    active_tasks = [t for tid, t in state["tasks"].items() if t["owner"] == username and t["status"] in ["ASSIGNED", "IN_PROGRESS", "NEEDS_REVISION"]]
+    active_tasks = [t for tid, t in state["tasks"].items() if (t["owner"] == username or t["subproject"] == username or username in t.get("collaborators", [])) and t["status"] in ["ASSIGNED", "IN_PROGRESS", "NEEDS_REVISION", "SUBMITTED FOR QA"]]
     if active_tasks:
-        print("\nYour Active Tasks:")
+        print("\n==========================================")
+        print("YOUR ASSIGNED TASKS & ACTIVE WORK:")
+        print("==========================================")
         for t in active_tasks:
-            print(f"  - [{t['id']}] {t['name']} (Project: {t['project']}) | Status: {t['status']}")
+            print(f"  - [{t['id']}] {t['name']} (Project: {t['project']}) | Status: {t['status']} | Priority: {t.get('priority', 'MEDIUM')}")
+            if t.get("objective"):
+                print(f"    Objective: {t['objective']}")
+    else:
+        print("\nYOUR ASSIGNED TASKS: None currently active.")
+        
+    root = get_workspace_root()
+    user_deliv_dir = os.path.join(root, "subprojects", username.lower(), "deliverables")
+    if os.path.exists(user_deliv_dir):
+        files = [f for f in os.listdir(user_deliv_dir) if os.path.isfile(os.path.join(user_deliv_dir, f))]
+        if files:
+            print("\n==========================================")
+            print(f"YOUR WORKSPACE REPORTS & DELIVERABLES ({len(files)} files):")
+            print("==========================================")
+            for f in files:
+                rel_path = os.path.relpath(os.path.join(user_deliv_dir, f), root)
+                print(f"  - {rel_path}")
             
     print("\nWhat would you like to work on?")
     
