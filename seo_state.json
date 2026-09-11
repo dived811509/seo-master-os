@@ -1,0 +1,1882 @@
+{
+  "users": {
+    "Dived": {
+      "role": "ADMIN",
+      "permissions": [
+        "on_page",
+        "off_page",
+        "technical",
+        "research",
+        "intelligence",
+        "testing",
+        "strategy",
+        "projects",
+        "team_management",
+        "reports"
+      ]
+    },
+    "Chirag": {
+      "role": "ADMIN",
+      "permissions": [
+        "on_page",
+        "off_page",
+        "technical",
+        "research",
+        "intelligence",
+        "testing",
+        "strategy",
+        "projects",
+        "team_management",
+        "reports"
+      ]
+    },
+    "Ravi": {
+      "role": "ADMIN",
+      "permissions": [
+        "on_page",
+        "off_page",
+        "technical",
+        "research",
+        "intelligence",
+        "testing",
+        "strategy",
+        "projects",
+        "team_management",
+        "reports"
+      ]
+    },
+    "Prashant": {
+      "role": "TEAM MEMBER",
+      "permissions": [
+        "off_page"
+      ]
+    },
+    "Kanishak": {
+      "role": "TEAM MEMBER",
+      "permissions": [
+        "off_page"
+      ]
+    }
+  },
+  "projects": {
+    "Blog Refresh & Keyword R&D": {
+      "description": "Keyword selection and SEO optimization for Adflipr blog posts",
+      "created_by": "Dived",
+      "created_at": "2026-08-31T12:13:18.613790"
+    }
+  },
+  "tasks": {
+    "TSK-001": {
+      "id": "TSK-001",
+      "name": "Shopify Email Marketing Keyword R&D",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "SEO RESEARCH & R&D",
+      "objective": "Determine primary keyword for Shopify retention blog post",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Updated keyword R&D with high volume (1000+ MSV) options for Shopify email marketing",
+      "findings": [
+        "Primary Keyword: Shopify Email Marketing (Est. 3600-5400+ MSV); Secondary High Volume Keyword: Ecommerce Email Marketing (9900-14000+ MSV)"
+      ],
+      "evidence": "Ahrefs/Semrush/Google Keyword Planner benchmarks for Shopify email marketing keywords (>1000 MSV)",
+      "deliverable": "subprojects/dived/deliverables/shopify_email_marketing_keyword_rd.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-08-31T12:13:26.988449",
+      "updated_at": "2026-08-31T12:20:38.115054"
+    },
+    "TSK-002": {
+      "id": "TSK-002",
+      "name": "Pre Built Automation Journey Cannibalization R&D",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "SEO RESEARCH & R&D",
+      "objective": "Determine whether to target same keyword or resolve cannibalization",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Provided 3 high volume secondary keywords for Marketing Automation Workflow",
+      "findings": [
+        "Secondary Keywords: 1. marketing automation workflow examples (1900-3600 MSV), 2. pre built marketing automation (880-1600 MSV), 3. automated customer journey map (1300-2400 MSV)"
+      ],
+      "evidence": "Ahrefs/Semrush search intent cluster benchmarks",
+      "deliverable": "subprojects/dived/deliverables/pre_built_automation_journey_rd.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-08-31T12:34:47.459504",
+      "updated_at": "2026-08-31T12:50:45.416481"
+    },
+    "TSK-003": {
+      "id": "TSK-003",
+      "name": "Competitor Gap Analysis for Marketing Automation Workflows",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "SEO RESEARCH & R&D",
+      "objective": "Analyze Bloomreach, Insider, and Aprimo to find content gaps",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Audited Bloomreach, Insider, and Aprimo articles for Marketing Automation Workflows",
+      "findings": [
+        "Competitors lack e-commerce focus, visual flow diagrams, copy-paste templates, and ROI benchmarks. Adflipr can win by targeting 7 pre-built e-commerce workflows with copy templates"
+      ],
+      "evidence": "Live content audit of bloomreach.com, useinsider.com, and aprimo.com",
+      "deliverable": "subprojects/dived/deliverables/competitor_gap_analysis_workflows.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-08-31T13:05:03.667797",
+      "updated_at": "2026-08-31T13:05:13.129607"
+    },
+    "TSK-004": {
+      "id": "TSK-004",
+      "name": "Master Content Outline and NLP Strategy for Workflows Blog",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "SEO RESEARCH & R&D",
+      "objective": "Generate competitor-beating content outline, primary/secondary keywords, and NLP entities",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Generated comprehensive master outline, primary/secondary keywords, and NLP entity cluster to outrank competitors",
+      "findings": [
+        "Primary: Marketing Automation Workflows (3600-6600+ MSV); Secondary: workflow examples, pre built marketing automation, customer journey map; 15+ NLP entities; 6-part competitor-beating content outline with diagrams and copy templates"
+      ],
+      "evidence": "Competitor gaps in bloomreach.com, useinsider.com, aprimo.com; NLP entity mapping",
+      "deliverable": "subprojects/dived/deliverables/master_content_outline_workflows.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-08-31T13:11:59.017248",
+      "updated_at": "2026-08-31T13:12:09.055588"
+    },
+    "TSK-005": {
+      "id": "TSK-005",
+      "name": "Full Blog Content Generation for Marketing Automation Workflows",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "SEO RESEARCH & R&D",
+      "objective": "Generate complete competitor-beating blog post with internal link audit",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Added complete Email 1, Email 2, and Email 3 copy templates across all multi-stage workflows and re-synced draft to WordPress post 13882",
+      "findings": [
+        "Full Email 1, Email 2, and Email 3 copy templates added for Welcome Series, Cart Recovery, and Post-Purchase flows; WordPress draft updated cleanly"
+      ],
+      "evidence": "WordPress REST API 200 response for post 13882 with status=draft",
+      "deliverable": "subprojects/dived/deliverables/marketing_automation_workflows_blog_post.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-08-31T13:18:28.274858",
+      "updated_at": "2026-08-31T16:07:42.172065"
+    },
+    "TSK-006": {
+      "id": "TSK-006",
+      "name": "Old vs New Blog Content Comparison Report",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "SEO RESEARCH & R&D",
+      "objective": "Generate detailed comparison report rating Old vs New content across 7 SEO pillars",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Generated 7-pillar Old vs New comparison report rating content quality, keyword search volume, intent siloing, NLP density, and conversion CTAs",
+      "findings": [
+        "Old Content Rating: 3.5/10 (Thin 384-word content, cannibalized keyword). New Content Rating: 9.8/10 (Comprehensive 1850-word guide, 3600-6600+ MSV primary, 18 NLP entities, 7 templates)"
+      ],
+      "evidence": "Metric comparison matrix in subprojects/dived/deliverables/old_vs_new_content_comparison_report.md",
+      "deliverable": "subprojects/dived/deliverables/old_vs_new_content_comparison_report.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-08-31T14:08:20.684465",
+      "updated_at": "2026-08-31T14:08:32.272913"
+    },
+    "TSK-007": {
+      "id": "TSK-007",
+      "name": "Comprehensive 13 Blogs SEO R&D Audit Report",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "SEO RESEARCH & R&D",
+      "objective": "Audit 13 blog posts for primary/secondary keywords, NLP entities, and heading structures",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Audited all 13 blog posts across 7 SEO pillars: primary/secondary keywords, NLP coverage, heading hierarchy, user intent, internal links, and technical UX",
+      "findings": [
+        "Average portfolio score: 9.15/10. Key flaw found in Blog 13 (Primary KW benchmarking is too broad; needs email marketing benchmarks). Fixes provided for Blogs 1, 2, 5, 6, 10, and 13"
+      ],
+      "evidence": "7-pillar audit matrix in subprojects/dived/deliverables/13_blogs_seo_audit_report.md",
+      "deliverable": "subprojects/dived/deliverables/13_blogs_seo_audit_report.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-08-31T17:57:28.759349",
+      "updated_at": "2026-08-31T17:57:38.842995"
+    },
+    "TSK-008": {
+      "id": "TSK-008",
+      "name": "Primary Keyword Selection for Cart Abandonment Blog",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "SEO RESEARCH & R&D",
+      "objective": "Determine 1000+ MSV primary keyword for cart abandonment blog post",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Researched high volume e-commerce keywords (>1000 MSV) for cart abandonment blog post",
+      "findings": [
+        "Primary Keyword: Reduce Cart Abandonment (1,900-3,600+ MSV); Secondary High-Volume Keyword: Cart Abandonment Rate (9,900-14,000+ MSV)"
+      ],
+      "evidence": "Keyword Planner / Ahrefs search volume benchmarks for e-commerce cart abandonment",
+      "deliverable": "subprojects/dived/deliverables/reduce_cart_abandonment_keyword_rd.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-08-31T18:15:46.453882",
+      "updated_at": "2026-08-31T18:15:55.294413"
+    },
+    "TSK-009": {
+      "id": "TSK-009",
+      "name": "Cart Abandonment Cannibalization Prevention and Variation Strategy",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "SEO RESEARCH & R&D",
+      "objective": "Determine distinct high volume primary keywords (>1000 MSV) and content objectives for Blog B",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Audited existing blog A (how-to-reduce-cart-abandonment) and formulated 3 distinct keyword variation angles (>1000 MSV) for blog B",
+      "findings": [
+        "Primary Recommendation: Abandoned Cart Email (4,400-6,600+ MSV) focusing 100% on automated email recovery sequences to avoid cannibalization with general checkout CRO in Blog A"
+      ],
+      "evidence": "Audit of live post 13892 and search intent mapping",
+      "deliverable": "subprojects/dived/deliverables/cart_abandonment_cannibalization_rd.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-08-31T18:25:54.196949",
+      "updated_at": "2026-08-31T18:26:03.196358"
+    },
+    "TSK-010": {
+      "id": "TSK-010",
+      "name": "Cart Abandonment Rate Content Generation and Competitor Audit",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "SEO RESEARCH & R&D",
+      "objective": "Generate competitor-beating blog post targeting Cart Abandonment Rate (9,900+ MSV) and sync to WordPress draft",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Audited Geckoboard and Baymard Institute articles; generated complete blog post targeting Cart Abandonment Rate (9,900-14,000+ MSV); synced draft to WordPress post 9195",
+      "findings": [
+        "Competitor Gap: Geckoboard is a 600-word glossary KPI entry; Baymard is a raw stats report. Adflipr wins by offering math formula, benchmark table, 8-strategy framework, and 3-part recovery email copy templates"
+      ],
+      "evidence": "WordPress REST API 200 response for post 9195 with status=draft",
+      "deliverable": "subprojects/dived/deliverables/cart_abandonment_rate_blog_post.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-08-31T18:36:18.171780",
+      "updated_at": "2026-09-09T15:09:15.628429"
+    },
+    "TSK-011": {
+      "id": "TSK-011",
+      "name": "Cart Abandonment Rate Master Outline and Competitor Outranking Strategy",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "SEO RESEARCH & R&D",
+      "objective": "Generate user friendly master content outline to outrank Geckoboard and Baymard for Cart Abandonment Rate",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Generated user-friendly master content outline demonstrating how Adflipr outranks Geckoboard and Baymard Institute",
+      "findings": [
+        "Primary: Cart Abandonment Rate (9,900-14,000+ MSV); 9-section master outline combining math formula, industry benchmark table, top 5 drop-off causes with fixes, 8 strategies, and 3-part recovery email copy templates"
+      ],
+      "evidence": "Competitor analysis of geckoboard.com and baymard.com",
+      "deliverable": "subprojects/dived/deliverables/cart_abandonment_rate_master_outline.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-08-31T18:39:15.027077",
+      "updated_at": "2026-08-31T18:39:25.594648"
+    },
+    "TSK-012": {
+      "id": "TSK-012",
+      "name": "Before vs After SEO Rating Report for Cart Abandonment Rate",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "SEO RESEARCH & R&D",
+      "objective": "Generate detailed 7-pillar rating comparison report rating Old vs New content for Post 9195",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Generated 7-pillar Before vs After rating comparison report for Post 9195 (cart abandonment rate)",
+      "findings": [
+        "Old Content Rating: 3.8/10 (Thin 670-word content, cannibalized keyword). New Content Rating: 9.8/10 (Comprehensive 2,100-word guide, 9,900+ MSV primary keyword, 51+ NLP entities, sector benchmark table, 3-part email templates, 0 em-dashes)"
+      ],
+      "evidence": "7-pillar metric comparison matrix in subprojects/dived/deliverables/cart_abandonment_rate_before_after_report.md",
+      "deliverable": "subprojects/dived/deliverables/cart_abandonment_rate_before_after_report.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-08-31T18:45:03.247863",
+      "updated_at": "2026-08-31T18:45:13.931957"
+    },
+    "TSK-013": {
+      "id": "TSK-013",
+      "name": "GSC Low CTR Audit & CTR Improvement Plan",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "SEO INTELLIGENCE & ANALYTICS",
+      "objective": "Diagnose 1.3% CTR in GSC performance and formulate Title, Meta Description, Position, and SERP Intent fixes.",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Completed deep 28-day GSC CTR audit identifying top zero-click queries, non-branded CTR traps, US geo-gaps, and title snippet re-engineering action plan",
+      "findings": [
+        "Branded queries represent 49% of clicks; 351 impressions on Pos 3.24 for 'best email newsletter examples' produced 0 clicks due to title/snippet mismatch; US non-branded CTR is 0.23% vs India 3.62%; 4 high impression blogs on page 3-4 log over 7000 impressions with under 3 clicks total"
+      ],
+      "evidence": "",
+      "deliverable": "subprojects/dived/deliverables/gsc_ctr_deep_audit_report.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-09-01T16:32:28.328419",
+      "updated_at": "2026-09-04T11:11:57.153515"
+    },
+    "TSK-014": {
+      "id": "TSK-014",
+      "name": "adflipr.com Complete Blog Title & Meta Description Audit",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "ON-PAGE & CONTENT",
+      "objective": "Generate high-CTR Titles and Meta Descriptions for Homepage, 13 core blogs, and key revenue pillars.",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Audited all 13 blog posts plus core pillars and homepage. Formulated high-CTR Titles and Meta Descriptions using power tags, numbers, and front-loaded primary keywords.",
+      "findings": [],
+      "evidence": "",
+      "deliverable": "subprojects/dived/deliverables/adflipr_title_meta_description_updates.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-09-01T16:36:57.477089",
+      "updated_at": "2026-09-01T16:37:13.533033"
+    },
+    "TSK-015": {
+      "id": "TSK-015",
+      "name": "Adflipr Email Builder Primary Keyword R&D Audit",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "SEO RESEARCH & R&D",
+      "objective": "Deep SEO audit of https://adflipr.com/email-builder/ to identify primary high-volume keywords and secondary e-commerce modifiers.",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Audited https://adflipr.com/email-builder/ and analyzed SERP intent for email builder keywords.",
+      "findings": [
+        "Primary keyword: drag and drop email builder",
+        "Secondary modifiers: no code email builder, ecommerce email builder, shopify email builder",
+        "Unique USP: Built-in Email Auditor"
+      ],
+      "evidence": "Live page audit + Google SERP commercial intent search analysis",
+      "deliverable": "subprojects/dived/deliverables/adflipr_email_builder_rd_audit.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-09-02T10:37:59.617666",
+      "updated_at": "2026-09-02T10:38:25.405686"
+    },
+    "TSK-016": {
+      "id": "TSK-016",
+      "name": "Adflipr Email Builder Intelligence & CTR Audit",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "SEO INTELLIGENCE & ANALYTICS",
+      "objective": "Perform Intelligence & Analytics audit of https://adflipr.com/email-builder/ to diagnose CTR drivers and high-volume keyword positioning.",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Audited high-volume secondary keywords grounded in page content.",
+      "findings": [
+        "Primary: drag and drop email builder",
+        "Top Secondary 1: email template builder (18k-27k/mo)",
+        "Top Secondary 2: free email template builder (14k-22k/mo)",
+        "Top Secondary 3: email newsletter builder (9k-14k/mo)"
+      ],
+      "evidence": "Live page DOM content extraction + Keyword Volume Intelligence",
+      "deliverable": "subprojects/dived/deliverables/adflipr_email_builder_analytics_audit.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-09-02T10:40:29.394101",
+      "updated_at": "2026-09-02T10:44:46.128192"
+    },
+    "TSK-017": {
+      "id": "TSK-017",
+      "name": "Adflipr Email Marketing Page Deep Keyword Analysis",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "SEO INTELLIGENCE & ANALYTICS",
+      "objective": "Deep page analysis and high-volume primary keyword strategy for https://adflipr.com/email-marketing/",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Reduced Hero body section to a concise 3-4 line paragraph while preserving exact 5x bolded primary keyword, secondary keywords, and internal links",
+      "findings": [
+        "Hero section successfully trimmed to compact 4-line layout."
+      ],
+      "evidence": "https://adflipr.com/email-marketing/",
+      "deliverable": "subprojects/dived/deliverables/adflipr_email_marketing_page_content.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-09-04T14:39:33.184788",
+      "updated_at": "2026-09-04T18:01:44.612214"
+    },
+    "TSK-018": {
+      "id": "TSK-018",
+      "name": "Adflipr Homepage vs Service Page Keyword Cannibalization Audit",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Dived",
+      "owner": "Dived",
+      "collaborators": [],
+      "seo_agent": "SEO INTELLIGENCE & ANALYTICS",
+      "objective": "Analyze keyword cannibalization risk between Homepage (Email Marketing Automation) and Service Page (Ecommerce Email Marketing Software)",
+      "priority": "MEDIUM",
+      "status": "SUBMITTED FOR QA",
+      "work_performed": "Analyzed intent overlap between Email Marketing Automation (Homepage) and Ecommerce Email Marketing Software (/email-marketing/)",
+      "findings": [
+        "High cannibalization risk if homepage targets Ecommerce Email Marketing Software. Solution: Map Homepage to Brand/All-in-One Platform, /email-marketing/ to Ecommerce Email Marketing Software, and /automations/ to Email Marketing Automation for Ecommerce"
+      ],
+      "evidence": "https://adflipr.com/ vs https://adflipr.com/email-marketing/",
+      "deliverable": "subprojects/dived/deliverables/adflipr_keyword_cannibalization_analysis.md",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-09-04T14:48:13.321346",
+      "updated_at": "2026-09-04T14:48:21.532931"
+    },
+    "TSK-019": {
+      "id": "TSK-019",
+      "name": "Off-Page Team SOP & Guidelines Review",
+      "project": "Blog Refresh & Keyword R&D",
+      "subproject": "Chirag",
+      "owner": "Chirag",
+      "collaborators": [],
+      "seo_agent": "OFF-PAGE & AUTHORITY",
+      "objective": "Review and enforce Off-Page SOP guidelines across link building operations.",
+      "priority": "MEDIUM",
+      "status": "ASSIGNED",
+      "work_performed": "",
+      "findings": [],
+      "evidence": "",
+      "deliverable": "",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-09-10T17:12:44.944720",
+      "updated_at": "2026-09-10T17:12:44.949907"
+    }
+  },
+  "activity_log": [
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-30T20:44:53.873425"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T12:09:25.784840"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": null,
+      "agent": null,
+      "action": "Create Project",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T12:13:18.613820"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-001",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T12:13:26.988811"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-001",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T12:13:40.962147"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-001",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T12:13:44.840582"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-001",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T12:14:57.759834"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-001",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T12:20:33.919553"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-001",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T12:20:38.115147"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-002",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T12:34:47.459773"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-002",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T12:34:56.814865"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-002",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T12:35:01.967067"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-002",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T12:47:31.106962"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-002",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T12:47:35.371303"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-002",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T12:49:09.023081"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-002",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T12:49:13.326791"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-002",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T12:50:41.504796"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-002",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T12:50:45.416550"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-003",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T13:05:03.668412"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-003",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T13:05:08.331473"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-003",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T13:05:13.129639"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-004",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T13:11:59.017545"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-004",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T13:12:04.023368"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-004",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T13:12:09.055623"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T13:18:28.275119"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T13:18:33.194046"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T13:18:41.874753"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T13:53:11.462562"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T13:53:16.407852"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T13:55:13.291702"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T13:55:17.677378"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T13:56:28.424787"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T13:56:32.303249"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T14:01:53.048641"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T14:02:05.299156"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-006",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T14:08:20.684711"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-006",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T14:08:26.248343"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-006",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T14:08:32.272958"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T14:29:09.645154"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T14:29:15.460071"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T14:34:30.319880"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T14:34:38.035939"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T14:46:57.736687"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T14:47:06.398590"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T14:50:02.807778"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T14:50:08.751787"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T14:51:08.866020"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T14:51:15.221978"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T14:52:24.664778"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T14:52:29.660348"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T15:01:35.177449"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T15:01:43.441989"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T16:07:38.517191"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-005",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T16:07:42.172099"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T16:30:20.835083"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-007",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T17:57:28.759873"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-007",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T17:57:33.848736"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-007",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T17:57:38.843076"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-008",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T18:15:46.454433"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-008",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T18:15:51.749306"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-008",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T18:15:55.294456"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-009",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T18:25:54.197175"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-009",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T18:25:58.739922"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-009",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T18:26:03.196405"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-010",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T18:36:18.172048"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-010",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T18:36:23.531581"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-010",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T18:36:27.387443"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-011",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T18:39:15.027510"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-011",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T18:39:20.215826"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-011",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T18:39:25.594683"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-012",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T18:45:03.248082"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-012",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T18:45:09.004015"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-012",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-31T18:45:13.932002"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-01T10:55:40.462867"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-01T12:46:41.613568"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-01T16:28:39.407838"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-013",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-01T16:32:28.328694"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-013",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-01T16:32:39.789993"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-013",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-01T16:32:44.508551"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-014",
+      "agent": "ON-PAGE & CONTENT",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-01T16:36:57.477389"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-014",
+      "agent": "ON-PAGE & CONTENT",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-01T16:37:09.113132"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-014",
+      "agent": "ON-PAGE & CONTENT",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-01T16:37:13.533111"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-02T10:35:30.664306"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-015",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-02T10:37:59.617875"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-015",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-02T10:38:20.979128"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-015",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-02T10:38:25.405735"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-016",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-02T10:40:29.394889"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-016",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-02T10:40:32.829946"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-016",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-02T10:40:35.679628"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-016",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-02T10:44:41.306397"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-016",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-02T10:44:46.128248"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-03T01:36:37.141073"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-03T15:56:50.792427"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-03T18:11:39.034802"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T11:08:45.117588"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-013",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T11:11:57.153576"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T13:14:26.127726"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T14:35:10.228900"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T14:39:33.184973"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T14:39:50.218102"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T14:39:56.250802"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-018",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Create Task assigned to Dived",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T14:48:13.321604"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-018",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T14:48:17.720056"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-018",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T14:48:21.532972"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T14:52:45.065831"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T14:52:55.143646"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T14:54:15.834105"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T14:54:24.435992"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T14:59:51.119680"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T15:00:17.692025"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T15:02:00.989094"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T15:02:38.364297"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T15:07:53.458880"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T15:08:16.327906"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T15:11:47.802341"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T15:11:57.872910"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T15:36:40.744038"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T15:36:50.348668"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T15:46:56.161240"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T15:47:07.608670"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T15:50:07.165046"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T15:50:14.748394"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T15:50:40.591978"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T15:50:51.008730"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T17:28:10.485550"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T17:28:17.022393"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T18:01:17.490301"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-017",
+      "agent": "SEO INTELLIGENCE & ANALYTICS",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-04T18:01:44.612255"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-07T14:21:49.143815"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-08T11:30:23.050735"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-010",
+      "agent": "SEO RESEARCH & R&D",
+      "action": "Submit Task for QA",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-09T15:09:15.628481"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-09T18:40:06.145931"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-10T13:25:55.129692"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Blog Refresh & Keyword R&D",
+      "task_id": "TSK-019",
+      "agent": "OFF-PAGE & AUTHORITY",
+      "action": "Create Task assigned to Chirag",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-10T17:12:44.950401"
+    },
+    {
+      "user": "Chirag",
+      "sub_project": "Chirag",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-10T17:20:13.397769"
+    },
+    {
+      "user": "Chirag",
+      "sub_project": "Chirag",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-10T17:21:40.758395"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-10T17:21:47.062396"
+    }
+  ],
+  "shared_knowledge": [],
+  "strategy": "Initial shared SEO strategy."
+}

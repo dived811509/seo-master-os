@@ -1,0 +1,25 @@
+{
+  "name": "@dived/adflipr-email-validator",
+  "version": "1.0.0",
+  "description": "High-performance email deliverability & eCommerce syntax validator powered by Adflipr Engine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "homepage": "https://adflipr.com/automations/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adflipr/adflipr-email-validator.git"
+  },
+  "keywords": [
+    "email-marketing",
+    "ecommerce-automation",
+    "shopify-email",
+    "cart-recovery",
+    "adflipr",
+    "email-validator",
+    "deliverability"
+  ],
+  "author": "Adflipr Insights <Info@adflipr.com> (https://adflipr.com)",
+  "license": "MIT"
+}

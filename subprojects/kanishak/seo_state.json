@@ -1,0 +1,198 @@
+{
+  "users": {
+    "Dived": {
+      "role": "ADMIN",
+      "permissions": [
+        "on_page",
+        "off_page",
+        "technical",
+        "research",
+        "intelligence",
+        "testing",
+        "strategy",
+        "projects",
+        "team_management",
+        "reports"
+      ]
+    },
+    "Chirag": {
+      "role": "ADMIN",
+      "permissions": [
+        "on_page",
+        "off_page",
+        "technical",
+        "research",
+        "intelligence",
+        "testing",
+        "strategy",
+        "projects",
+        "team_management",
+        "reports"
+      ]
+    },
+    "Ravi": {
+      "role": "ADMIN",
+      "permissions": [
+        "on_page",
+        "off_page",
+        "technical",
+        "research",
+        "intelligence",
+        "testing",
+        "strategy",
+        "projects",
+        "team_management",
+        "reports"
+      ]
+    },
+    "Prashant": {
+      "role": "TEAM MEMBER",
+      "permissions": [
+        "off_page"
+      ]
+    },
+    "Kanishak": {
+      "role": "TEAM MEMBER",
+      "permissions": [
+        "off_page"
+      ]
+    }
+  },
+  "projects": {
+    "Competitor Backlink Research": {
+      "description": "Competitor link profile audit",
+      "created_by": "Dived",
+      "created_at": "2026-08-24T13:48:19.027793"
+    }
+  },
+  "tasks": {
+    "TSK-001": {
+      "id": "TSK-001",
+      "name": "Analyze Klaviyo backlinks",
+      "project": "Competitor Backlink Research",
+      "subproject": "Prashant",
+      "owner": "Prashant",
+      "collaborators": [],
+      "seo_agent": "OFF-PAGE & AUTHORITY",
+      "objective": "Find backlinks for Klaviyo",
+      "priority": "MEDIUM",
+      "status": "ASSIGNED",
+      "work_performed": "",
+      "findings": [],
+      "evidence": "",
+      "deliverable": "",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-08-24T13:48:19.185478",
+      "updated_at": "2026-08-24T13:48:19.185514"
+    },
+    "TSK-002": {
+      "id": "TSK-002",
+      "name": "Analyze Mailchimp backlinks",
+      "project": "Competitor Backlink Research",
+      "subproject": "Kanishak",
+      "owner": "Kanishak",
+      "collaborators": [],
+      "seo_agent": "OFF-PAGE & AUTHORITY",
+      "objective": "Find backlinks for Mailchimp",
+      "priority": "MEDIUM",
+      "status": "IN PROGRESS",
+      "work_performed": "Kanishak backlink audit completed.",
+      "findings": [
+        "Mailchimp has 400 referring domains"
+      ],
+      "evidence": "",
+      "deliverable": "",
+      "qa_status": "PENDING",
+      "qa_feedback": "",
+      "dependencies": [],
+      "created_at": "2026-08-24T13:48:19.338012",
+      "updated_at": "2026-08-24T13:48:20.269311"
+    }
+  },
+  "activity_log": [
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-24T13:48:18.861206"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Competitor Backlink Research",
+      "task_id": null,
+      "agent": null,
+      "action": "Create Project",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-24T13:48:19.027833"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Competitor Backlink Research",
+      "task_id": "TSK-001",
+      "agent": "OFF-PAGE & AUTHORITY",
+      "action": "Create Task assigned to Prashant",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-24T13:48:19.185909"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": "Competitor Backlink Research",
+      "task_id": "TSK-002",
+      "agent": "OFF-PAGE & AUTHORITY",
+      "action": "Create Task assigned to Kanishak",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-24T13:48:19.338337"
+    },
+    {
+      "user": "Dived",
+      "sub_project": "Dived",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "STOP (Logout)",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-24T13:48:19.468443"
+    },
+    {
+      "user": "Kanishak",
+      "sub_project": "Kanishak",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "START (Login)",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-24T13:48:19.733932"
+    },
+    {
+      "user": "Kanishak",
+      "sub_project": "Kanishak",
+      "project": "Competitor Backlink Research",
+      "task_id": "TSK-002",
+      "agent": "OFF-PAGE & AUTHORITY",
+      "action": "Update Task",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-24T13:48:20.269449"
+    },
+    {
+      "user": "Kanishak",
+      "sub_project": "Kanishak",
+      "project": null,
+      "task_id": null,
+      "agent": null,
+      "action": "STOP (Logout)",
+      "result": "SUCCESS",
+      "timestamp": "2026-08-24T13:48:20.598400"
+    }
+  ],
+  "shared_knowledge": [],
+  "strategy": "Initial shared SEO strategy."
+}
